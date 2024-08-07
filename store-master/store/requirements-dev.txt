@@ -1,0 +1,18 @@
+# requirements-dev.txt
+
+# Linting
+black
+darglint
+mypy
+ruff
+
+# Testing
+moto[dynamodb]
+pytest
+pytest-aiohttp
+pytest-aiomoto
+pytest-asyncio
+pytest-mock
+pytest-timeout
+pytest-trio
+s3fs

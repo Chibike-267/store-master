@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Standard dependencies.
+omegaconf
+bson
+pydantic
+
+# AWS dependencies.
+aioboto3
+
+# Crypto dependencies
+argon2-cffi
+pyjwt[asyncio]
+
+# FastAPI dependencies.
+aiohttp
+aiosmtplib
+fastapi
+pillow
+python-multipart
+
+# Deployment dependencies.
+uvicorn[standard]
+
+# Types
+types-aioboto3[dynamodb, s3]
